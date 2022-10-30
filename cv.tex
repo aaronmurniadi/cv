@@ -1,0 +1,162 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cies Resume/CV
+% LaTeX Template
+% Version 1.1 (20/7/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Cies Breijs (cies@kde.nl)
+% https://github.com/cies/resume with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
+
+\input{preamble} % Include structure.tex which contains packages and document layout definitions
+
+\hyphenation{Some-long-word} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\maintitle{Aaron Purnomo Murniadi}{}  % Your name and date of birth or subtitle
+
+\noindent\bull\href{mailto:aaronmurniadi@gmail.com}{\textit{aaronmurniadi@gmail.com}}
+
+\noindent\bull\textsmaller{+62} 881-535-9522 % Your phone number(s) and Skype username
+
+%\spacedhrule{0.9em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Summary} % Root section title
+
+\vspace{-1.3em} % Reduce whitespace after the Summary heading and the two-column content
+
+\begin{multicols}{2}  % Start a two-column layout
+    \noindent I am experienced in Software Testing and Bug Reporting and have discovered, documented, and reported two
+    major security flaws (see \textit{Working Experiences}). Technology, programming, and software development has always been my life-long passion.
+    On the sideline, I also promote the use of Free and Open Source Software (FOSS) and Open Science.
+
+\end{multicols}
+
+%\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Working Experience} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{}{Y3 Event and Wedding Organizer}}
+{\dotfill\textsc{Cirebon, West Java (2016--2018)}} {
+
+    \headedsubsection % Job title entry for the current employer
+    {\acr{as} Time Keeper}
+    {}
+    {\bodytext{Overseeing the event schedule. Wake-up call to clients and families.
+            Follow up calls to food catering, building management,
+            Make-Up Artists, and other third party associates.}}
+
+    \headedsubsection % Job title entry for the current employer
+    {\acr{as} Count Keeper}
+    {~}
+    {\bodytext{Keeping accurate count of guests and sending updates to the team so they could act accordingly.}}
+
+    \headedsubsection % Job title entry for the current employer
+    {\acr{as} Receptionist}
+    {~}
+    {\bodytext{Welcoming the guests of the event. Provide basic information and assistance for guests.
+            Responsible for the safety of the gifts that are meant for the client.}}
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{https://www.pdcnet.org/}{Philosophy Documentation Center}}
+{\dotfill\textsc{Remote Work (2019)}} {
+
+    \headedsubsection % Job title entry for the current employer
+    {\acr{as} Freelance Bug Hunter}
+    {}
+    {\bodytext{Report and documentation of an backdoor exploit on their webpage front-end.}}
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{https://www.driyarkara.ac.id/}{Sekolah Tinggi Filsafat Driyarkara}}
+{\dotfill\textsc{Remote Work (2020)}} {
+
+    \headedsubsection % Job title entry for the current employer
+    {\acr{as} Freelance Bug Hunter}
+    {}
+    {\bodytext{Report and documentation of institutional data leak.}}
+}
+
+%------------------------------------------------
+
+%\spacedhrule{-0.2em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Skills} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Software}{} {
+    \headedsubsection % Job title entry for the current employer
+    {Git, Visual Studio Code, IntelliJ, Postman, DBeaver, Office 365, Adobe Photoshop and Lightroom, Google Workspace, LaTeX, Python, Java, SQL.}{}{}
+}
+
+\headedsection
+{Operating System}{} {
+    \headedsubsection % Job title entry for the current employer
+    {Windows XP-11, Ubuntu, Manjaro, ArchLinux, Fedora.}{}{}
+}
+
+\headedsection
+{Web and Cloud}{} {
+    \headedsubsection % Job title entry for the current employer
+    {GitHub, GitLab, WordPress, Vercel, Netlify.}{}{}
+}
+
+\headedsection
+{Language}{} {
+    \headedsubsection % Job title entry for the current employer
+    {Bahasa Indonesia (native), English (Intermediate Reading, Writing, Listening, and Active Speaking).}{}{}
+}
+
+\headedsection
+{Social}{} {
+    \headedsubsection % Job title entry for the current employer
+    {Team Player, Motivated, Fast Learner, Adaptive, Initiative.}{}{}
+}
+%------------------------------------------------
+
+\begin{quote}
+    \begin{center}
+        \textit{You could find more in my \href{https://www.linkedin.com/in/aaronpmurniadi/}{\textbf{LinkedIn}}.}
+    \end{center}
+\end{quote}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
