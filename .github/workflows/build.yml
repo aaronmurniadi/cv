@@ -16,7 +16,7 @@ jobs:
         run: mv cv.pdf aaron_murniadi_cv.pdf
       
       - name: Upload PDF as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: aaron_murniadi_cv.pdf
           path: aaron_murniadi_cv.pdf
