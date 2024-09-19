@@ -13,13 +13,13 @@ jobs:
           root_file: cv.tex
       
       - name: Rename PDF file
-        run: mv cv.pdf aaron_murniadi_cv_v${{ github.run_number }}.pdf
+        run: mv cv.pdf aaron_murniadi_cv.pdf
       
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v2
         with:
-          name: aaron_murniadi_cv_v${{ github.run_number }}.pdf
-          path: aaron_murniadi_cv_v${{ github.run_number }}.pdf
+          name: aaron_murniadi_cv.pdf
+          path: aaron_murniadi_cv.pdf
       
       - name: Create Release
         id: create_release
@@ -42,6 +42,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ env.UPLOAD_URL }} 
-          asset_path: aaron_murniadi_cv_v${{ github.run_number }}.pdf
-          asset_name: aaron_murniadi_cv_v${{ github.run_number }}.pdf
+          asset_path: aaron_murniadi_cv.pdf
+          asset_name: aaron_murniadi_cv.pdf
           asset_content_type: application/pdf
